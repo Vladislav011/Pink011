@@ -13,7 +13,9 @@
   },
   "homepage": "https://github.com/htmlacademy-adaptive/125911-pink",
   "devDependencies": {
-    "editorconfig-tools": "0.1.1"
+    "editorconfig-tools": "0.1.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1"
   },
   "scripts": {
     "test": "editorconfig-tools check *"

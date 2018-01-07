@@ -1,6 +1,6 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Andrey Mozolev](https://up.htmlacademy.ru/adaptive/6/user/125911).
+* Студент: [Vlad Boychenko](https://up.htmlacademy.ru/adaptive/6/user/125911).
 * Наставник: `Неизвестно`.
 
 ---

@@ -2,11 +2,176 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="less/style.less">
+    <title>Pink011</title>
+
   </head>
   <body>
+    <header class="page-header" id="menu">
+      <nav class="main-nav  main-nav--closed">
+        <div class="page-header__main-nav--header"><img src="/img" width="" height="" alt=""><a href="index.html"></a>
+                 <button class="main-nav__button" type="button">Menu</button>
+       </div>
+            <ul class="main-nav__items">
+            	<li class="main-nav__item main-nav__item--active"><a>Главная</a>
+            	</li>
+            	<li class="main-nav__item"><a href="photo.html">Фотографии</a>
+            	</li>
+            	<li class="main-nav__item"><a href="form.html">Конкурс</a>
+            	</li>
+            	<li class="main-nav__item"><a href="https://www.instagram.com/vladeee11/">Vladeee11</a>
+            	</li>
+           </ul>
+      </nav>
+    </header>
+<main class="conent">
+	<section class="intro">
+		<div class="intro-title">
+          <h1>Взгляните<br> на жизнь<br> иначе!</h1>
+		</div>
+		<div class="intro-download">
+		  <a class="intro-download__link" href="index.html">Скачать приложение</a>
+		    <div class="intro-download__btns">
+		    	<a class="intro-download__btn intro-download__btn--apple" href="index.html">Apple</a>
+		    	<a class="intro-download__btn intro-download__btn--android" href="index.html">Android</a>
+		    	<a class="intro-download__btn intro-download__btn--windows" href="index.html">windows</a>
+            </div>
+            <div class="intro-discribe">
+              <p>Доступно для iPhone, iPad, Android,<br> Windows Phone, Mac OS, Windows 8</p>
+            </div>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+		</div>
+
+	</section>
+	<section class="offer">
+	  <h1 class="offer-title">Устали от серости мегаполиса?<br>Нам есть, что вам<br> предложить!</h1>
+	</section>
+    <section class="info">
+      <div class="info-item info-item__first">
+        <p class="info-item__title">Поднимает настроение<p>
+        <p class="info-item__describe">Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
+      </div>
+      <div class="info-item info-item__second">
+        <p class="info-item__title">Меняет мир вокруг<p>
+        <p class="info-item__describe">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      </div>
+      <div class="info-item info-item__third">
+        <p class="info-item__title">Заводит новых друзей<p>
+        <p class="info-item__describe">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+      </div>
+    </section>
+    <section class="effect">
+      <p class="effect-title">Эффект на 24 часа!</p>
+      <p class="effect-discribe">Британские ученые провели исследования и доказали, что положительный эффект от
+        использования приложения длитсяцелые сутки!</p>
+
+    </section>
+    <section class="review slider" id="reviews">
+      <div class="review__inner-wrap">
+        <article class="review__item slider__slide slider__slide--active">
+          <p class="review__header">Николай Петров</p>
+          <p class="review__description">25 лет, водитель трамвая</p>
+          <p class="review__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
+        </article>
+        <article class="review__item slider__slide">
+          <p class="review__header">Петр Васечкин</p>
+          <p class="review__description">25 лет, водитель трамвая</p>
+          <p class="review__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
+        </article>
+        <article class="review__item slider__slide">
+          <p class="review__header">Василий Николаев</p>
+          <p class="review__description">25 лет, водитель трамвая</p>
+          <p class="review__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!"</p>
+        </article>
+      </div>
+      <span class="slider__review-toggle slider__review-toggle--prev"></span>
+      <span class="slider__review-toggle slider__review-toggle--next"></span>
+      <div class="slider__toggle"></div>
+    </section>
+   <section class="price slider" id="price">
+      <div class="price__price-table slider__price-wrap">
+
+        <div class="price__item price__options">
+          <ul class="price__content-list">
+            <li class="price__content-item price__options-item">Розовый фильтр</li>
+            <li class="price__content-item price__options-item">Смайлики</li>
+            <li class="price__content-item price__options-item">Комментарии</li>
+          </ul>
+        </div>
+
+        <div class="price__item slider__price-item">
+          <div class="price__header">
+            <p class="price__title">База</p>
+            <p class="price__cost">1,99 USD</p>
+          </div>
+          <ul class="price__content-list">
+            <li class="price__content-item">Розовый фильтр</li>
+            <li class="price__content-item price__content-item--not-included">Смайлики</li>
+            <li class="price__content-item price__content-item--not-included">Комментарии</li>
+          </ul>
+        </div>
+
+        <div class="price__item price__item--hit slider__price-item">
+          <div class="price__header">
+            <p class="price__title">Стандарт</p>
+            <p class="price__cost">3,99 USD</p>
+          </div>
+          <ul class="price__content-list">
+            <li class="price__content-item">Розовый фильтр</li>
+            <li class="price__content-item">Смайлики</li>
+            <li class="price__content-item price__content-item--not-included">Комментарии</li>
+          </ul>
+        </div>
+
+        <div class="price__item slider__price-item">
+          <div class="price__header">
+            <p class="price__title">Анлим</p>
+            <p class="price__cost">9,99 USD</p>
+          </div>
+          <ul class="price__content-list">
+            <li class="price__content-item">Розовый фильтр</li>
+            <li class="price__content-item">Смайлики</li>
+            <li class="price__content-item">Комментарии</li>
+          </ul>
+        </div>
+      </div>
+      <div class="slider__toggle slider__price-toggle"></div>
+    </section>
+    <section class="contact">
+    	<div class="contact-title"><h1>Остались вопросы?<br>Свяжитесь с нами!</h1>
+    	</div>
+    	<div class="contact-item__first">
+    		<strong class="contact-item__second--title">Звоните:</strong>
+    		 <a class="contacts--item__second--text" href="tel:+78001000900" itemprop="telephone">8 (800) 1000 900</a>
+    	</div>
+    	<div class="contact-item__second">
+    		<strong class="contact-item__first--title">Приезжайте в гости:</strong>
+    		 <p>ул.Большая<br>Конюшная,19/8</p>
+    	</div>
+    	<div class="contact-item__third">
+    		<strong class="contact-item__third--title">Пишите:</strong>
+    		 <a class="contacts--item__third--text" href="mailto:hello@pinkapp.ru" itemprop="email">mail@htmlacademy.ru</a>
+    	</div>
+    </section>
+    <div class="contact__map">
+    </div>
+</main>
+<footer class="main-footer">
+	<div class="footer-logo">
+      <img src="#" width="" height="" alt=""><a href="index.html"></a>
+    </div>
+    <div class="footer-social">
+      <a class="footer-social  footer-social__tw" href="https://twitter.com/">Twitter<a>
+      <a class="footer-social  footer-social__fb" href="https://www.facebook.com/">Facebook<a>
+      <a class="footer-social  footer-social__yt" href="http://www.youtube.com/">YouTube<a>
+    </div>
+    <div class="footer-discribe">
+    	<a href="https://www.instagram.com/vladeee11/">Developed by Vladeee11</a>
+    </div>
+</footer>
 
   </body>
 </html>
