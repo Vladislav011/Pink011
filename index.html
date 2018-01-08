@@ -2,47 +2,63 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="less/style.less">
+      <link rel="stylesheet" href="css/style.css">
     <title>Pink011</title>
 
   </head>
   <body>
-    <header class="page-header" id="menu">
-      <nav class="main-nav  main-nav--closed">
-        <div class="page-header__main-nav--header"><img src="/img" width="" height="" alt=""><a href="index.html"></a>
-                 <button class="main-nav__button" type="button">Menu</button>
-       </div>
-            <ul class="main-nav__items">
-            	<li class="main-nav__item main-nav__item--active"><a>Главная</a>
-            	</li>
-            	<li class="main-nav__item"><a href="photo.html">Фотографии</a>
-            	</li>
-            	<li class="main-nav__item"><a href="form.html">Конкурс</a>
-            	</li>
-            	<li class="main-nav__item"><a href="https://www.instagram.com/vladeee11/">Vladeee11</a>
-            	</li>
-           </ul>
-      </nav>
-    </header>
+    <header class="page-header">
+  <div class="page-header__wrapper page-header--nojs">
+    <div class="page-header__wrapper-border">
+  <div class="page-header__wrapper-image">
+  <img class="page-header__logo-image" src="css/img/logo-white-mobile.svg" width="75" height="22" alt="Пинк">
+  <button class="page-header__button page-header__button--closed" type="button">
+    <p class="visually-hidden">Открыть меню</p>
+  </button>
+  </div>
+  </div>
+  <nav class="main-nav main-nav--opened main-nav--nojs">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a class="site-list__link">Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="photo.html">Фотографии</a>
+        </li>
+        <li class="site-list__item">
+          <a class="site-list__link" href="form.html">Конкурс</a>
+        </li>
+        <li class="site-list__iteml">
+          <a class="site-list__link" href="https://www.instagram.com/vladeee11/">Vladeee11</a>
+        </li>
+      </ul>
+  </nav>
+  <div class="app">
+    <div class="app__wrapper">
+    <img class="app__image" src="css/img/iphone-hand-mobile.png" height="314" alt="Картинка приложения">
+    <div class="platforms">
+      <div class="platforms__wrapper">
+      <p class="platforms__text">Взгляните на жизнь иначе!</p>
+      <a class="platforms__download" href="platforms.html" download>Скачать приложение</a>
+      <ul class="platforms__list">
+        <li class="platforms__item">
+          <a href="apple.htm"><img src="css/img/apple-logo.svg" width="47" height="56" alt="Apple"></a>
+        </li>
+        <li class="platforms__item">
+          <a href="android.html"><img src="css/img/android-logo.svg" width="43" height="47" alt="Anrdoid"></a>
+        </li>
+        <li class="platforms__item">
+          <a href="windows.html"><img src="css/img/microsoft-logo.svg" width="44" height="41" alt="Windows"></a>
+        </li>
+      </ul>
+      <p class="platforms__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</header>
 <main class="conent">
-	<section class="intro">
-		<div class="intro-title">
-          <h1>Взгляните<br> на жизнь<br> иначе!</h1>
-		</div>
-		<div class="intro-download">
-		  <a class="intro-download__link" href="index.html">Скачать приложение</a>
-		    <div class="intro-download__btns">
-		    	<a class="intro-download__btn intro-download__btn--apple" href="index.html">Apple</a>
-		    	<a class="intro-download__btn intro-download__btn--android" href="index.html">Android</a>
-		    	<a class="intro-download__btn intro-download__btn--windows" href="index.html">windows</a>
-            </div>
-            <div class="intro-discribe">
-              <p>Доступно для iPhone, iPad, Android,<br> Windows Phone, Mac OS, Windows 8</p>
-            </div>
-
-		</div>
-
-	</section>
 	<section class="offer">
 	  <h1 class="offer-title">Устали от серости мегаполиса?<br>Нам есть, что вам<br> предложить!</h1>
 	</section>

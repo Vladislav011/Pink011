@@ -1,26 +1,41 @@
 {
-  "name": "125911-pink",
+  "name": "Pink011",
   "version": "0.1.0",
   "private": true,
   "description": "Личный проект «Пинк» от HTML Academy",
-  "author": "Andrey Mozolev",
+  "author": "Vladeee11",
   "repository": {
     "type": "git",
-    "url": "git@github.com:htmlacademy-adaptive/125911-pink.git"
+    "url": "git://github.com/Vladislav011/Pink011.git"
   },
   "bugs": {
-    "url": "https://github.com/htmlacademy-adaptive/125911-pink/issues"
+    "url": "https://github.com/Vladislav011/Pink011"
   },
-  "homepage": "https://github.com/htmlacademy-adaptive/125911-pink",
+  "homepage": "https://github.com/Vladislav011/Pink011",
   "devDependencies": {
+    "autoprefixer": "6.0.x",
     "editorconfig-tools": "0.1.1",
     "grunt": "^1.0.1",
-    "grunt-contrib-less": "^1.4.1"
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "0.6.x",
+    "grunt-serve": "^0.1.6"
   },
+  "main": "Gruntfile.js",
   "scripts": {
-    "test": "editorconfig-tools check *"
+    "test": "npm run lint",
+    "build": "grunt style",
+    "start": "grunt serve"
   },
+  "editorconfig-cli": [
+    "*.html",
+    "*.json",
+    "*.js",
+    "js/**/*.js",
+    "img/**/*.svg",
+    "less/**/*.{less,less}"
+  ],
   "engines": {
     "node": "^5.0.0"
-  }
+  },
+  "dependencies": {}
 }
