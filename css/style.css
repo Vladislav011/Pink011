@@ -115,6 +115,9 @@
   .platforms__item {
     display: inline-block;
   }
+  .text-title {
+    text-align: center;
+  }
 }
 body {
   font-size: 18px;
